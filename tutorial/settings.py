@@ -22,7 +22,7 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, lik
 ROBOTSTXT_OBEY = True
 
 DOWNLOADER_MIDDLEWARES = {
-	'tutorial.middlewares.CustomProxyMiddleware': 350,
+	# 'tutorial.middlewares.CustomProxyMiddleware': 350,
     'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 400
 }
 
