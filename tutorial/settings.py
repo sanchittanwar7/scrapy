@@ -72,6 +72,10 @@ DOWNLOADER_MIDDLEWARES = {
 #ITEM_PIPELINES = {
 #    'tutorial.pipelines.TutorialPipeline': 300,
 #}
+# ITEM_PIPELINES = { 
+# 	'tutorial.pipelines.WriteToCsv' : 3000
+# }
+# csv_file_path = './'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
